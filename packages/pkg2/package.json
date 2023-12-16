@@ -1,0 +1,8 @@
+{
+  "name": "pkg2",
+  "type": "module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}

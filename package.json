@@ -1,0 +1,21 @@
+{
+  "name": "pkg-name",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.13.0",
+  "author": "ocavue <ocavue@gmail.com>",
+  "license": "MIT",
+  "keywords": [],
+  "sideEffects": false,
+  "scripts": {
+    "build": "typedoc"
+  },
+  "devDependencies": {
+    "typedoc": "0.25.4",
+    "typedoc-plugin-markdown": "4.0.0-next.37",
+    "typescript": "5.2.2"
+  },
+  "stackblitz": {
+    "startCommand": "npm run build"
+  }
+}
