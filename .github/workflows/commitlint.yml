@@ -8,7 +8,7 @@ on:
       - synchronize
 
 jobs:
-  lint-pr-name:
+  lint-pr-title:
     runs-on: ubuntu-latest
     steps:
       - name: Install commitlint
@@ -22,3 +22,5 @@ jobs:
         run: |
           echo The Title of your PR is "$PR_TITLE"
           echo "$PR_TITLE" | commitlint --verbose
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
