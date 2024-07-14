@@ -4,16 +4,16 @@ Test
 
   
 <dt>
-  Description Term element
+  Description Term element **bold**
 </dt>
 <dd>
-  Description Details
+  Description Details **bold**
 </dd>
 <dt>
-  Description Term element
+  Description Term element `code`
 </dt>
 <dd>
-  Description Details
+  Description Details `code`
 </dd>
   
 </dl>
